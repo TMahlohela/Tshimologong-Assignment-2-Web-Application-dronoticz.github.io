@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="keywords" content="Dronoticz, Drones, UAV">
+		<meta name="description" content="Dronoticz">
+		<meta name="author" content="Dronoticz">
+		<!--Chrome, Firefox, & Opera browser compatibility-->
+		<meta name="theme-color" content="#80c5c5">
+		<!--Windows phone-->
+		<meta name="msapplication-navbutton-color" content="#80c5c5">
+		<!--Safari & IOS-->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/sections/header.css"/>
+		<link rel="stylesheet" href="css/sections/body.css"/>
+		<link rel="stylesheet" href="css/sections/about-us.css"/>
+		<link rel="stylesheet" href="css/sections/hero.css"/>
+		<link rel="stylesheet" href="css/sections/latest-articles.css"/>
+		<link rel="stylesheet" href="css/sections/subscribe-section.css"/>
+		<link rel="stylesheet" href="css/sections/footer.css"/>		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon" type="image/png" href="/assets/.png"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+		<link rel="stylesheet" href="css/sections/hero.css" />
+		
+		<style>
+			.hero {
+			  background-image: url("assets/hero.jpg");
+			  height: 100%;
+			}
+		</style>
+		<title>Dronoticz</title>
+	</head>
+	<body>
+		<nav class="hero">
+			<div class="topnav">
+				<a href="#home">
+					<ul id="myLogo">
+						<li id="logoD">
+							D
+						</li>
+						<li id="logoZ">
+							Z
+						</li>
+					</ul>
+				</a>
+				<div id="myLinks">
+					<a href="#about">About</a>
+					<a href="#articles">Articles</a>
+				</div>
+				<!--<a href="javascript:void(0);" class="icon" onclick="myIcon()">
+					<i class="fa fa-bars"></i>
+				</a>-->
+				<div id="mySubscribe">
+					<a class="sub-button-nav" href="#subscribe" type="submit" value="Submit">Subscribe</a>
+				</div>
+			</div>
+		</nav>
+		
+		<header>
+		  <div class="caption">
+			<span class="hero-h1">DRONOTICZ</span><br>
+			<span class="hero-p">the era of drones</span><br>
+			<hr class="hr-hero"></hr>
+		  </div>
+		</header>
+		
+		<section class="latest-articles" id="articles">
+			<div class="heading-articles">
+				<span class="heading">Latest Articles</span><br>
+				<hr class="hr-articles"></hr>
+			</div>			 
+		  
+			<div class="row">
+			  <div class="column">
+          <img src="assets/drone1.jpg" alt="" title="">
+          <div class="column-paragraph">
+            <hr class="hr-articles-column"></hr>            
+            <p>How to automate surveillance drones</p>
+          </div>
+        </div>
+        <div class="column">
+          <img src="assets/drone2.jpg" alt="" title="">
+          <div class="column-paragraph">
+            <hr class="hr-articles-column"></hr>            
+            <p>Robotics and Artificial Intelligence</p>
+          </div>
+        </div>
+        <div class="column">
+            <img src="assets/drone3.jpg" alt="" title="">
+            <div class="column-paragraph">
+              <hr class="hr-articles-column"></hr>
+              <p>Improving Lives through Robotic Prosthetics</p>
+            </div>
+        </div>
+        <div class="column">
+          <img src="assets/drone4.jpg" alt="" title="">
+          <div class="column-paragraph">  
+            <hr class="hr-articles-column"></hr>
+            <p>Power of Robotics in Agriculture</p>
+          </div>
+			  </div>			  
+			</div>
+		</section>
+		
+    	<section class="about-us" id="about">
+      <div class="row">
+        <div class="column-about">
+          <img src="assets/drone8.jpg" alt="" title="">
+        </div>
+        <div class="column-about">
+			<div class="column-about-hug">
+				<div div class="column-heading">
+					<h1>About Us</h1>
+					<hr class="hr-about-column"></hr>
+				</div>
+				<div class="column-about">
+					<p>Welcome to our dronoticz, where inovation and technology converge to shape the future. We revolutionize industries and improve lives worldwide throung our passion for pushing boundaries o what robots can do. With expertise in AI, computer vision, mechanical engineering, and automation, we lead the way in robotics revolution. Our brilliant team creates intelligent machines that seamlessly intergrate into daily lie, enhancing productivity, saety, and efficiency. oin us on this exciting ourney as we unlock new frontiers, solve complex challenges, and shape a future where intelligent machines work hand-in-hand with humans. Discover the power of robotics and be part o the revolution.</p>
+				</div>
+			</div>
+        </div>
+      </div>
+		</section>
+
+		<section class="sub-section" id="subscribe">
+			<div class="heading-sub">
+				<span class="heading">Subscribe</span><br>
+				<div class="tooltip">				
+					<p>Sign-up to our newsletter</p>					
+					<span class="tooltiptext">Enter your email below to subscribe to our newsletter.</span>
+				</div>  				
+			</div>
+       
+			<form name="subscribeForm" onsubmit="return validateForm()" action="mailto:prompt.indie@gmail.com" method="post" enctype="text/plain">
+				<table class="form-content">
+					<tr>
+						<td>
+							<input class="sub-input" name="email" type="email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" minlength="5" maxlength="200" placeholder="Your email">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<button class="sub-button" type="submit" value="Submit">Submit</button>
+						</td>
+					</tr>
+				</table>
+			</form>
+
+    	</section>
+
+		<section class="footer" id="footer">
+			<table class="footer-ico">
+			  <tr>
+				<td>
+					<a href="https://twitter.com/" class=".sm-icon" target="_blank">
+					<img class="sm-icon" src="assets/twitter_icon.ico" alt="twitter-landing-page" title="whatsapp-landing-page">
+				  </a>
+				</td>
+				<td>
+				  	<a href="https://www.linkedin.com/" target="_blank">
+					<img class="sm-icon" src="assets/linkedin_icon.ico" alt="linkedin-link" title="linkedin-landing-page">
+				  </a>            
+				</td>
+				<td>
+					<a href="https://pinterest.com/" class=".sm-icon" target="_blank">
+					<img class="sm-icon" src="assets/pinterest_icon.ico" title="pinterest-landing-page">
+				  </a>
+				</td>
+			  </tr>
+			</table>
+			
+			<ul class="footer__menu">
+			  <li>
+				<a href="#about">About Us</a>
+			  </li>
+			  <li>
+				<a href="#articles">Articles</a>
+			  </li>
+			  <li>
+				<button class="sub-button-footer" onclick="document.location='#subscribe.asp'" type="submit" value="Subscribe">Subscribe</button>
+			  </li>
+			</ul>
+		  </section>
+		
+		<script src="js/script.js"></script>
+		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	</body>
+</html>

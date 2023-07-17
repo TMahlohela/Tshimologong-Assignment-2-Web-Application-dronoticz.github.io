@@ -1,0 +1,91 @@
+.latest-articles {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 15%;
+    margin: auto;
+    text-align: center;
+    background-color:var(--backdrop-color);
+}
+
+.heading-articles{
+	margin:0%;
+	padding:10%;
+}
+
+.heading{
+	font-size:32px;
+	text-transform:uppercase;
+	font-weight:500;
+}
+
+.heading-caption {
+	position: absolute;
+	color: #000000;
+	padding:5%;
+}
+
+.caption span.heading {
+	padding:10%;
+	margin:auto;
+	font-size: 32px;
+		
+	@media only screen and (max-width: 550px){					
+	padding: 20px;
+	font-size:15px;
+	}
+}
+
+hr.hr-articles {
+	position: relative;
+	display:flex;
+	margin-top:3%;
+	flex:1;
+	border: 1px solid #000000;
+	max-width:4em;
+	width:auto;
+	text-align: center;
+}
+hr.hr-articles-column{
+	position: relative;
+	display:flex;
+	margin-top:20%;
+	flex:1;
+	border: 3px solid #000000;
+	max-width:4em;
+	width:auto;
+	text-align: center;
+}
+.column p{
+	font-size:16px;
+	padding:10%;
+}
+
+.column img{
+	height:50%;
+	width:100%;
+}		
+/* Create two equal columns that floats next to each other */
+.column {
+    position:relative;
+	float: left;
+    width: 21%;
+    display:flexbox;
+	margin-left:2%;
+	margin-right:2%;
+    height:20em;
+	box-shadow: 0px 30px 10px 1px rgba(0, 0, 0, 0.3)
+}
+
+.column-paragraph{
+    margin:0%;
+    padding-top:3%;
+    background-color:var(--background);
+}
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  

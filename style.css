@@ -1,0 +1,23 @@
+:root {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  color-scheme: light dark;
+  background-color:var(--background);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  --primary-color:#000000;
+  --secondary-color:#CBDEEC;
+  --backdrop-color:#F8F8F8;
+  --background:#ffffff;
+}
+
+body, html {
+	height: 100%;
+  margin:0px;
+	color: var(--primary-color);
+	font-family: 'Inter', sans-serif;
+}
