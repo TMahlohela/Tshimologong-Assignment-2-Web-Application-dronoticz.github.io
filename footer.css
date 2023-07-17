@@ -1,8 +1,7 @@
-.footer{    
+.footer{
     width:100%;
     display:flex;
     overflow:hidden;
-    padding:10px;
     background-color:var(--contrast);
 }
 

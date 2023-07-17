@@ -23,24 +23,22 @@
 	flex:1;
 	padding: 20px;
 	font-size: 112px;
-				
-	@media only screen and (min-width: 710px){					
-	padding: 20px;
-	font-size:70px;
+}
+
+@media only screen and (max-width: 712px){					
+	.caption span.hero-h1 {
+		padding: 0px;
+		font-size:90px;
 	}
 }
-			
-.caption span.hero-h1 {
-	flex:1;
-	padding: 20px;
-	font-size: 112px;	
-	
-	@media only screen and (max-width: 580px){					
-	padding: 20px;				
-	font-size:70px;
-	}	
+
+@media only screen and (max-width: 580px){
+	.caption span.hero-h1 {
+		padding: 0px;
+		font-size:40px;
+	}
 }
-			
+
 .caption span.hero-p {
 	padding: 20px;
 	font-size: 32px;

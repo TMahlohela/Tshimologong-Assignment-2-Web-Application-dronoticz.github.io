@@ -1,24 +1,25 @@
 .about-us{
-    	width: 100%;
-    	text-align: center;
+    width: 100%;
+    text-align: center;
 }
 
 .column-about-hug{
-    	flex:1;
-    	margin:5%;
-    	margin-top:5%;
+    flex:1;
+    margin:5%;
+    margin-top:5%;
 }
 
 .column-about {
-    	float: left;
-    	width: 50%;
-    	height: 35rem;
+    float: left;
+    width: 50%;
+    height: 35rem;
 }
-
+ 
+/* Clear floats after the columns */
 .row:after {
-    	content: "";
-    	display: table;
-    	clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 hr.hr-about {
@@ -42,28 +43,43 @@ hr.hr-about-column{
 }
 
 .column-heading{
-    	padding-top:10%;
-    	padding-bottom: 5%;
-	text-transform: uppercase;
+    padding-top:10%;
+    padding-bottom: 5%;
+    text-transform: uppercase;
+    font-weight: 200;
 }
 
 .column-about p{
-    	overflow-x: hidden;
-	width:35em;
+    overflow-x: hidden;
+    width:auto;
 	font-size:16px;
-	padding-left: 30%;
-    	padding-bottom: 20%;
-    	font-size: small;
-    	text-align:justify;
-    	display: inline-block;
-    	vertical-align: middle;
-    
-    	@media only screen and (max-width: 750px){					
-        max-width:200px;
-    }    
+    font-size: small;
+    text-align:left;
+    vertical-align: middle;
+    padding-left:4em;
+}
+
+@media only screen and (max-width: 645px){
+    .column-about p{
+        font-size: smaller;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .column-about p{
+        font-size:x-small;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .column-about{
+		width:75%;
+		height:auto;
+		margin:2em;
+    }
 }
 
 .column-about img{
 	height:100%;
 	width:100%;
-}		
+}
