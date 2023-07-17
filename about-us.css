@@ -12,10 +12,9 @@
 .column-about {
     	float: left;
     	width: 50%;
-    	height: 35rem; /* Should be removed. Only for demonstration */
+    	height: 35rem;
 }
- 
-/* Clear floats after the columns */
+
 .row:after {
     	content: "";
     	display: table;
