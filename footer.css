@@ -63,6 +63,25 @@
     box-shadow: inset -2px -2px 3px var(--secondary-color), inset 3px 2px 2px rgba(100, 75, 100, .40 );
 }
 
+@media only screen and (max-width: 705px){
+    .sm-icon{        
+		width:25px;
+        padding:2px;
+    }
+}
+
+@media only screen and (max-width:705px){
+    .footer__menu li{
+        text-align:end; 
+    }
+}
+
+@media only screen and (max-width:705px){
+    .sub-button-footer{
+        display: none;
+    }
+}
+
 .sub-button-footer{
     margin-bottom: 10px;
     margin:20px;
